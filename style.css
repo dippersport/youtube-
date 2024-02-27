@@ -1,0 +1,12 @@
+body {
+    /* цвет фона */
+    background: #000;
+    /* цвет текста */
+    color: #fff;
+    /* моноширинный шрифт */
+    font-family: monospace;
+    /* размер шрифта */
+    font-size: 34px;
+    /* отступы */
+    margin: 30px;
+  }

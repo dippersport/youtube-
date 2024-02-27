@@ -1,20 +1,16 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" >
 <head>
-	<meta charset="UTF-8">
-	<title>Лабиринт</title>
+  <meta charset="UTF-8">
+  <title>Автотекст</title>
+  <!-- подключаем стили -->
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-	<!-- подготавливаем пустой холст, чтобы работать с ним из скрипта -->
-	<canvas></canvas>
-	<!-- скрипт, который создаёт лабиринт -->
-	<script src="generateMaze.js">	</script>
-	<!-- этот скрипт отвечает за отрисовку лабиринта -->
-	<script src="drawMaze_player.js"></script>
-
-	<div class="pyro">
-		<div class="before"></div>
-		<div class="after"></div>
-	</div>
+  <!-- текст будет появляться в этом блоке -->
+  <p></p>
+  <!-- подключаем скрипт -->
+  <script  src="script.js"></script>
 </body>
 </html>
